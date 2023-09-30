@@ -17,13 +17,13 @@ p{
 }
 
 .moon {
-    display: none; /* Initially hide the moon icon */
+    display: none;
 }
 
 .dark-mode .sun {
-    display: none; /* Hide sun in dark mode */
+    display: none;
 }
 
 .dark-mode .moon {
-    display: inline; /* Show moon in dark mode */
+    display: inline;
 }
