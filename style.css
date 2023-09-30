@@ -11,3 +11,19 @@ p{
     background-color: black;
     color: white;
 }
+
+.sun, .moon {
+    font-size: 24px;
+}
+
+.moon {
+    display: none; /* Initially hide the moon icon */
+}
+
+.dark-mode .sun {
+    display: none; /* Hide sun in dark mode */
+}
+
+.dark-mode .moon {
+    display: inline; /* Show moon in dark mode */
+}
